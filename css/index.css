@@ -1,0 +1,116 @@
+
+    *{
+        margin: 0px;
+        outline: none;
+    }
+    body{
+        background-image:url(../img/backestudiandoform.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    
+    .FormularioCaja{
+        padding-top: 30px;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(136, 136, 206, 0.7);
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+    }
+
+    .tituloConsva{
+        text-align: center;
+        padding-bottom: 10px;
+        color: white;
+    }
+    
+    .centradoGracias{
+        text-align: center;
+        padding-bottom: 10px;
+        font-size: 17px;
+        color: white;
+    }
+    
+    .formContainer{
+        margin-top:  20px;
+        background-color: rgba(47, 47, 105, 0.8);
+        width: 40%;
+        padding: 40px;
+        margin-left: 26.5%;
+    }
+    
+    .labeldatos{
+        color: white;
+        padding-bottom: 20px;
+        font-size: 17px;
+    }
+
+    .subtitulos{
+        color: white;
+        padding-bottom: 20px;
+        font-size: 17px;
+    }
+    
+    .pequenito{
+        font-size: 14px;
+    }
+    
+    .opcionRol{
+        color: gray; 
+    }
+    
+    .inputdatos{
+        margin-top: 5px;
+        margin-bottom: 20px;
+        width: 100%;
+        height: 35px;
+        border-radius: 2px;
+        border: none;
+    }
+    
+    input{
+        padding-left: 10px;
+        font-size: 16px;
+    }
+    
+    select{
+        padding-left: 6px;
+        width: 100%;
+        font-size: 16px;
+    }
+    
+    select::-ms-value{
+        color: gray;
+    }
+    .radioSpacing{
+        margin-top: 4px;
+    }
+    
+    .sionoFriend{
+        color: white;
+        font-size: 16px;
+    }
+
+    .textoFeature{
+        color: white;
+        font-size: 16px;
+    }
+    
+    .Comentario{
+        margin-top: 5px;
+        width: 100%;
+        height: 80px;
+        resize: none;
+        font-size: 16px;
+    }
+    
+    .submitBoton{
+        color: wheat;
+        background-color: rgb(23, 182, 23);
+        border: none;
+        width: 100%;
+        height: 40px;
+        font-size: 16px;
+    }

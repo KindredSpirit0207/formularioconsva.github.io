@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CENSVA Survey Form</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+    <div class="FormularioCaja">
+        <!-- Títuloooo -->
+        <h1 class="tituloConsva">CONSVA Survey Form</h1>
+        <p class="centradoGracias">Thank you for taking the time to help us improve the platform</p>
+
+        <!-- Aquí empieza el form -->
+        <form action="#" class="formContainer">
+            <label for="" class="labeldatos">Name</label><br>
+            <input type="text" class="inputdatos" placeholder="Enter your name"><br>
+            <label for="" class="labeldatos">Email</label><br>
+            <input type="text" class="inputdatos" placeholder="Enter your Email"><br>
+            <label for="" class="labeldatos">Age</label><br>
+            <input type="number" class="inputdatos" placeholder="Age"><br>
+
+        <!-- Describir tu rol actual -->
+            <label for="" class="subtitulos">Which option best describes your current role?</label><br>
+            <select aria-placeholder="Select your current role" class="selectRole">
+                <option value="" disable hidden selected class="opcionRol">Please Choose...</option>
+                <option value="Student">Student</option>
+                <option value="Student">Full time worker</option>
+                <option value="Student">Half time worker</option>
+            </select><br><br><br>
+
+        <!-- Recomendarlo a un amigo -->
+            <label for="" class="subtitulos">Would you recommend CONSVA to a friend?</label><br>
+            <input type="radio" name="friend" value="Definitely" id="" class="radioSpacing"> <span class="sionoFriend">Definitely</span> <br>
+            <input type="radio" name="friend" value="Definitely" id="" class="radioSpacing2"> <span class="sionoFriend">Not sure</span> <br><br><br>
+        
+        <!-- Cosa favorita -->
+            <label for="" class="subtitulos">What is your favorite feature of CONSVA? <span class="pequenito">(Check all that apply)</span></label><br><br>
+            <input type="checkbox" name="features" id="" class="checkSpacing"> <span class="textoFeature">Front-end projects</span> <br>
+            <input type="checkbox" name="features" id="" class="checkSpacing"> <span class="textoFeature">Back-end Projects</span> <br>
+            <input type="checkbox" name="features" id="" class="checkSpacing"> <span class="textoFeature">Data visualization</span> <br>
+            <input type="checkbox" name="features" id="" class="checkSpacing"> <span class="textoFeature">Challenges</span> <br>
+            <input type="checkbox" name="features" id="" class="checkSpacing"> <span class="textoFeature">Open Source Community</span> <br>
+            <input type="checkbox" name="features" id="" class="checkSpacing"> <span class="textoFeature">Gitter help rooms</span> <br>
+            <input type="checkbox" name="features" id="" class="checkSpacing"> <span class="textoFeature">Videos</span> <br>
+            <input type="checkbox" name="features" id="" class="checkSpacing"> <span class="textoFeature">City Meetups</span> <br>
+            <input type="checkbox" name="features" id="" class="checkSpacing"> <span class="textoFeature">Wiki</span> <br>
+            <input type="checkbox" name="features" id="" class="checkSpacing"> <span class="textoFeature">Forum</span> <br>
+            <input type="checkbox" name="features" id="" class="checkSpacing"> <span class="textoFeature">Additional courses</span> <br><br><br>
+            
+        <!-- El comentario extra -->
+            <label for="" class="subtitulos">Any comments or suggestions?</label><br>
+            <textarea wrap="hard" name="ComentarioExtra" id="" cols="40" rows="10" class="Comentario" placeholder="Enter your comments"></textarea><br><br>
+            <input type="submit" value="Submit" class="submitBoton">
+        </form>
+    </div>
+    
+</body>
+</html>
